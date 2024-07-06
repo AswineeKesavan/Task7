@@ -1,0 +1,19 @@
+package basic;
+
+public class Polymorphism {
+
+	
+	/*
+	 * Using polymorphism, we can use same name methods in different forms 
+	 * 
+	 * 
+	 */
+	
+public static void main(String[] args) {
+		
+		CatClass obj1=new CatClass();
+		obj1.makesound();
+		
+		DogClass obj2=new DogClass();
+		obj2.makesound();
+}
